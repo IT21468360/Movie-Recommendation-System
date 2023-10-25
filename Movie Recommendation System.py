@@ -159,7 +159,7 @@ def main():
                 
                 # Display posters, title, and vote average in a single row
                 with row_posters[idx - 1]:
-                    st.image(poster_path, caption=f"{movie_title} | IMDb : {vote_average}", use_column_width=True)
+                    st.image(poster_path, caption=f"{movie_title} | IMDb : {vote_average}/10", use_column_width=True)
         else:
             st.warning('No movies found for the selected genre.')
 
